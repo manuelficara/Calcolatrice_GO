@@ -11,7 +11,7 @@ func main() {
 		fmt.Println("Inserisci il primo numero: ")
 		var num1 float64
 		if _, err := fmt.Scanf("%f\n", &num1); err == nil {
-			var sel string = ""
+			var sel = ""
 			for {
 				fmt.Println("Inserisci il secondo numero: ")
 				var num2 float64
